@@ -34,6 +34,7 @@ nav {
 
 #menu-item-1 {
     flex-grow: 1;
+   
 }
 
 #menu-item-2 {
@@ -41,7 +42,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     gap: 20px;
+}
+
+
+#menu-item-1 a:hover, #menu-item-2 a:hover{
+    border-bottom: 2px solid black;
+    
 }
 
 header{
